@@ -155,4 +155,43 @@ div.buttonIn>button{
     height:40px;
     cursor: pointer;
 }
-
+.btstyle{
+    text-decoration: none;
+    display: block;
+    box-sizing: border-box;
+    min-width: fit-content;
+    word-wrap: nowrap;
+    overflow: hidden;
+    padding: 0 30px;
+    line-height: 0.5;
+    height: auto;
+    width:80px;
+    margin-left: 10px;
+    text-align: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 15px;
+    color: #000000;
+    transition: ease-out 0.3s;
+    position: relative;
+    background: url(heroicons-outline_login.png) -100% 50% no-repeat;
+    /* background: #FFFEFE; */
+    border: 2px solid #0011AB;
+    border-radius: 25px;
+    box-shadow: inset 0 0 0 0 #0011AB;
+    transition: ease-out 0.3s;
+}
+.site-navbar .site-navigation .site-menu a {
+    text-decoration: none !important;
+    display: inline-block; }
+.site-navbar .site-navigation .site-menu > li {
+    display: inline-block; }
+    .site-navbar .site-navigation .site-menu > li > a {
+      margin-left: 15px;
+      margin-right: 15px;
+      padding: 20px 0px;
+      color: #000 !important;
+      display: inline-block;
+      text-decoration: none !important; }
+      .site-navbar .site-navigation .site-menu > li > a:hover {
+        color: #007bff; }
