@@ -319,3 +319,45 @@ form{
     height:40px;
     margin-bottom: 2px;
 }
+.company-logo{
+    margin-left:-60px;
+    display:inline-block;
+    justify-content: center;          
+    flex-wrap: wrap;
+    box-shadow: #0011AB 1px 1px 1px 1px;
+    border-radius: 1px;
+    width: 250px;
+    height: 350px;
+    align-items: baseline;
+    align-content: flex-start;
+}
+.mid-info{
+    display: inline-block;
+    width:300px;
+    height:350px;
+    justify-content: center;
+    align-content: center;
+    
+    
+}
+.keywords{
+    
+    display:inline-block;
+    justify-content: center;          
+    flex-wrap: wrap;
+    box-shadow: #0011AB 1px 1px 1px 1px;
+    border-radius: 1px;
+    width: 250px;
+    height: 350px;
+    margin-right:10px;
+    align-items: baseline;
+    align-content: flex-start;
+}
+.flex-container-company{
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: flex-start;
+    margin-top:20px;
+    align-items: baseline;
+}
