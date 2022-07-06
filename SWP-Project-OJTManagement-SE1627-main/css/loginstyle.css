@@ -267,6 +267,30 @@ div.buttonIn>button{
   }
 .flex-container>.inside-title{
     font-size: 40px;
+    display: flex;   
+}
+.mainbox{
+    width: auto;
+    margin: 0 100px;
+    height: auto;
     display: flex;
-    
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 16px 0px;
+
+    background: rgba(255, 255, 255, 0.5);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 25px;
+}
+form{
+    width: 100%;
+}
+.searchbox{
+    position: relative;
+    width: 300px;
+    display: flex;
+    background-color: #00000000;
+    justify-content: center;
+    border-radius: 25px;
 }
