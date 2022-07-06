@@ -195,8 +195,8 @@ div.buttonIn>button{
     display: inline-block; }
     .site-navbar .site-navigation .site-menu > li > a {
       margin-left: 15px;
-      margin-right: 15px;
-      padding: 15px 0px;
+      margin-right: 10px;
+      padding: 10px 0px;
       color: #000 !important;
       display: inline-block;
       text-decoration: none !important; }
@@ -293,4 +293,29 @@ form{
     background-color: #00000000;
     justify-content: center;
     border-radius: 25px;
+}
+.background-box>.seperateline{
+    width: 1200px;
+    height:2px;
+    background-color: #00000000;
+    display: flex;
+    justify-content: center;          
+    flex-wrap: wrap;
+    box-shadow: #0011AB 1px 1px 1px 1px;
+    border-radius: 1px;
+    margin-top:-100px;
+    
+}
+.background-box>.single-obj-btn{
+    display: inline-block;
+    margin:auto; 
+    height:40px;
+    margin-left:1000px;
+    width:120px;
+    margin-top:-160px;
+    
+}
+.background-box>.single-obj-btn>button{
+    height:40px;
+    margin-bottom: 2px;
 }
