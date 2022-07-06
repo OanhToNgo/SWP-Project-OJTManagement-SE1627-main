@@ -361,3 +361,10 @@ form{
     margin-top:20px;
     align-items: baseline;
 }
+.companyrole-info{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 300px;
+    margin-top:-320px;
+}
